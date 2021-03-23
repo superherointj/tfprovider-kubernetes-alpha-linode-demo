@@ -1,0 +1,21 @@
+[0m[33mRunning plan in the remote backend. Output will stream here. Pressing Ctrl-C
+will stop streaming the logs, but will not stop the plan running remotely.[0m
+
+Preparing the remote plan...
+[0m
+[0m[33mTo view this run in a browser, visit:
+https://app.terraform.io/app/ethical-expert/demo-lke/runs/run-upEyHHmgeK3MMrsV[0m
+[0m
+Waiting for the plan to start...
+
+Terraform v0.14.8
+Configuring remote state backend...
+Initializing Terraform configuration...
+[31m
+[1m[31mError: [0m[0m[1mFailed to construct REST client[0m
+
+[0m  on samples.tf line 11, in resource "kubernetes_manifest" "test-configmap":
+  11: resource "kubernetes_manifest" "test-configmap" [4m{[0m
+[0m
+cannot create REST client: no client config
+[0m[0m
