@@ -61,6 +61,9 @@ cannot create REST client: no client config
   * `namespace demo_namespace` => Kubernetes provider works.
   * `ConfigMap test-config` => Kubernetes-Alpha provider works.
 
-## Question
+## Questions
 
-How to fix configuration for kubernetes-alpha provider to connect to Linode LKE using credentials?
+* Should kubernetes-alpha provider be able to connect to Linode LKE with same credentials as official kubernetes provider does?
+* How to fix configuration for kubernetes-alpha provider to connect to Linode LKE using credentials?
+
+Thanks.
